@@ -1,7 +1,5 @@
-Gluon versions used for specific Lübeck Freifunk Firmware builds:
+Freifunk Göttingen
+------------------
 
-* 0.5: v2014.3
-* 0.4.1: v2014.2
-* 0.4: v2014.1
-* 0.4~1-beta2 (0.4 Beta 2): 2c751d3612a7229de878c40ae724611f2f4f0bee
-* 0.3.100-beta1 (0.4 Beta 1): 55a068104fa072ea7cd2decac9584a8f619badbf
+Konfiguration für Gluon (siehe https://github.com/freifunk-gluon/) mit den Daten für das Freifunk-Netz in Göttingen.
+Mehr zu diesem Projekt in Kürze.
