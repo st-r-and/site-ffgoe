@@ -22,6 +22,8 @@ export GLUON_URL=https://github.com/freifunk-gluon/gluon.git
 export GLUON_COMMIT=v2014.3.1
 export GLUON_RELEASE=$GLUON_COMMIT-`date '+%Y%m%d'`
 
+echo "Building gluon $GLUON_COMMIT -> $GLUON_RELEASE"
+
 # Verzeichnis für Gluon-Repo erstellen und initialisieren   
 test -d "$WORKSPACE/gluon" || git clone "$GLUON_URL" "$WORKSPACE/gluon"
 cd "$WORKSPACE/gluon"
