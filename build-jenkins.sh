@@ -15,6 +15,8 @@
 # Based on https://github.com/FreiFunkMuenster/site-ffms/blob/master/build-jenkins.sh
 ###############################################################################################
 
+set -e
+
 # Globale Einstellungen 
 export GLUON_URL=https://github.com/freifunk-gluon/gluon.git
 export GLUON_COMMIT=v2014.3.1
@@ -29,9 +31,9 @@ git checkout -f $GLUON_COMMIT
 # Site config kopieren
 test -d "$WORKSPACE/gluon/site" && rm -r "$WORKSPACE/gluon/site"
 mkdir "$WORKSPACE/gluon/site"
-#cp "$WORKSPACE/modules" "$WORKSPACE/fluon/site/"
-cp "$WORKSPACE/site.mk" "$WORKSPACE/fluon/site/"
-cp "$WORKSPACE/site.conf" "$WORKSPACE/fluon/site/"
+#cp "$WORKSPACE/modules" "$WORKSPACE/gluon/site/"
+cp "$WORKSPACE/site.mk" "$WORKSPACE/gluon/site/"
+cp "$WORKSPACE/site.conf" "$WORKSPACE/gluon/site/"
 
 # Gluon Pakete aktualisieren und Build ausfuhren 
 cd "$WORKSPACE/gluon"
