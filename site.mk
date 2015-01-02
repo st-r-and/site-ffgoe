@@ -22,8 +22,10 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-# Overridden in build-jenkins.sh
-DEFAULT_GLUON_RELEASE := 0.6~exp$(shell date '+%Y%m%d')
+
+DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
+
+# Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
