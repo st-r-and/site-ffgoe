@@ -21,7 +21,7 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	joe
+	tcpdump-mini
 
 
 DEFAULT_GLUON_RELEASE := 0.6_ae3+exp$(shell date '+%Y%m%d')
