@@ -24,7 +24,7 @@ GLUON_SITE_PACKAGES := \
 	joe
 
 
-DEFAULT_GLUON_RELEASE := 0.6_ae1+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.6_ae3+exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
