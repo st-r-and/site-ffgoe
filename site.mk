@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	iperf \
 	tcpdump-mini
 
-DEFAULT_GLUON_RELEASE := 0.7_ae05
+DEFAULT_GLUON_RELEASE := 0.7_ae06
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
