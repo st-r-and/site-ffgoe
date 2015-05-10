@@ -12,22 +12,23 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Welcome the the setup wizard of your new Freifunk Lübeck node. "
+"Welcome the the setup wizard of your new Freifunk Goettingen node. "
 "Please fill out the following form and transmit it."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 "This is your Freifunk node's public key. The node won't be able to "
 "connect to the mesh VPN until the key has been registered on the Freifunk "
-"Lübeck servers. "
+"Goettingen servers. "
 "To register the key send it together with your node's name (<em><%=hostname%></em>) to "
-"<a href=\"mailto:keys@luebeck.freifunk.net\">keys@luebeck.freifunk.net</a>."
+"<a href=\"mailto:meshvpn@cccgoe.de\">meshvpn@cccgoe.de</a>."
 
 
 msgid "gluon-config-mode:reboot"
 msgstr ""
 "<p>The node is currently rebooting and will try to connect to other "
 "nearby Freifunk nodes  after that. "
-"Your can find lots of information on the Freifunk Lübeck community on "
-"<a href=\"https://luebeck.freifunk.net/\">our homepage</a>.</p>"
+"Your can find lots of information on the Freifunk Goettingen community on "
+"<a href=\"https://goettingen.freifunk.net/\">our homepage</a>.</p>"
 "<p>Have fun with your node and exploring the Freifunk network!</p>"
+
