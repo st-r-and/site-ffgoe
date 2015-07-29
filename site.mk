@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := head_ae_$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := master_ae_$(shell date '+%Y%m%d%H%M')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
