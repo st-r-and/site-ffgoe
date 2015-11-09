@@ -22,7 +22,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged
+	haveged \
+	tcpdump-mini \
+	vnstat \
+	iperf
 
 DEFAULT_GLUON_RELEASE := m_ae_$(shell date '+%Y%m%d%H%M')
 
