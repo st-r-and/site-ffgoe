@@ -22,11 +22,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged \
-	tcpdump-mini \
-	vnstat \
-	iperf
-
+	haveged
+	
 DEFAULT_GLUON_RELEASE := m_ae_$(shell date '+%Y%m%d%H%M')
 
 # Allow overriding the release number from the command line
