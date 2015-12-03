@@ -29,6 +29,7 @@ ifeq ($(GLUON_TARGET),x86-generic)
 # and add a few common USB NICs
 GLUON_SITE_PACKAGES += \
 	kmod-mii \
+	kmod-nls-base \
 	kmod-usb2 \
 	kmod-usb-core \
 	kmod-usb-hid \
@@ -60,6 +61,23 @@ GLUON_SITE_PACKAGES += \
 	iperf \
 	usbutils
 endif
+
+#ar71xx-generic
+GLUON_TLWR842_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_TLWR1043_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_TLWR2543_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_TLWDR4300_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_WNDR3700_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_WRT160NL_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_DIR825B1_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_GLINET_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_WZRHPG450H_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_WZRHPAG300H_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+GLUON_ARCHERC7_SITE_PACKAGES := kmod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+
+#mpc85xx-generic
+GLUON_TLWDR4900_SITE_PACKAGES := mod-usb-core kmod-usb2 tcpdump vnstat iperf usbutils joe kmod-mii kmod-usb-net kmod-usb-net-asix-ax88179 kmod-usb-net kmod-nls-base
+
 
 	
 DEFAULT_GLUON_RELEASE := m_ae_$(shell date '+%Y%m%d%H%M')
