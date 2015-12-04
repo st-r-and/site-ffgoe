@@ -83,6 +83,8 @@ TOOLS_PACKAGES := \
 	tcpdump \
 	vnstat \
 	iperf \
+	iperf3 \
+	socat \
 	usbutils
 
 
