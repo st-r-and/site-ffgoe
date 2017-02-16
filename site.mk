@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
-	gluon-respondd \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
@@ -22,7 +21,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged
+	haveged \
+	gluon-ssid-changer
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
@@ -116,8 +116,7 @@ GLUON_ARCHERC7_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PA
 #mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-	
-DEFAULT_GLUON_RELEASE := 0.8.1
+DEFAULT_GLUON_RELEASE := 0.8.7
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -126,3 +125,7 @@ GLUON_PRIORITY ?= 0
 
 # Languages to include
 GLUON_LANGS ?= de en
+
+# Build ath10k support
+GLUON_ATH10K_MESH = ibss
+GLUON_REGION = eu
