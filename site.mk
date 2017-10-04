@@ -20,8 +20,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged \
-	gluon-ssid-changer
+	haveged 
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
