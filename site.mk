@@ -4,6 +4,7 @@ GLUON_FEATURES := \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
 	alfred \
+	radvd \
 	autoupdater \
 	status-page \
 	web-advanced \
