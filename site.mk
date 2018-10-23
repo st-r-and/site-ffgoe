@@ -1,5 +1,6 @@
 GLUON_FEATURES := \
 	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
