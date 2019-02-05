@@ -15,7 +15,8 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	gluon-ssid-changer
+	gluon-ssid-changer \
+	gluon-config-mode-geo-location-osm 
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
