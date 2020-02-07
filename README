@@ -3,6 +3,7 @@ Freifunk Göttingen
 
 Auf welcher Gluon-Version basiert die Göttinger Firmware?
 
+* 0.10.6 gluon.v2018.2.4
 * 0.10.3 gluon.v2018.2 + map + ssid_changer
 * 0.10.2 gluon.v2018.2
 * 0.10.1 gluon-v2018.1.1
