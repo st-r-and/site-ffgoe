@@ -9,13 +9,16 @@ GLUON_FEATURES := \
 	autoupdater \
 	status-page \
 	web-advanced \
-	web-wizard
+	web-wizard \
+        ssid-changer \
+        config-mode-geo-location-osm
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	gluon-ssid-changer
+#	gluon-ssid-changer \
+#	gluon-config-mode-geo-location-osm 
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
