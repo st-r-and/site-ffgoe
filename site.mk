@@ -123,3 +123,4 @@ GLUON_LANGS ?= de en
 # Build ath10k support
 GLUON_ATH10K_MESH = ibss
 GLUON_REGION = eu
+GLUON_DEPRECATED = full
