@@ -1,5 +1,7 @@
+GLUON_MULTIDOMAIN=1
 GLUON_FEATURES := \
 	mesh-batman-adv-14 \
+	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
@@ -10,8 +12,8 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
 	web-wizard \
-        ssid-changer \
-        config-mode-geo-location-osm
+    ssid-changer \
+    config-mode-geo-location-osm
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
@@ -19,7 +21,7 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	gluon-ssid-changer \
 	gluon-config-mode-geo-location-osm \
-        autoupdater-proxy
+    autoupdater-proxy
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
