@@ -1,4 +1,4 @@
-GLUON_SITE_FEEDS="ssidchanger"
+GLUON_SITE_FEEDS="ssidchanger tsys"
 # gluon-ssid-changer
 PACKAGES_SSIDCHANGER_REPO=https://github.com/Freifunk-Nord/gluon-ssid-changer
 PACKAGES_SSIDCHANGER_COMMIT=3c6750ce8fc9cedabfa8a6f479fb12d343c6ecc2

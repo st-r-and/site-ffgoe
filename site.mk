@@ -11,8 +11,7 @@ GLUON_FEATURES := \
 	web-advanced \
 	web-wizard \
         ssid-changer \
-        config-mode-geo-location-osm \
-        autoupdater
+        config-mode-geo-location-osm
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
