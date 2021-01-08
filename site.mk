@@ -12,8 +12,9 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
 	web-wizard \
-    ssid-changer \
-    config-mode-geo-location-osm
+        ssid-changer \
+        config-mode-geo-location-osm \
+        config-mode-domain-select
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
