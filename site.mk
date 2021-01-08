@@ -19,7 +19,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged \
 	gluon-ssid-changer \
-	config-mode-geo-location-osm \
+	gluon-config-mode-geo-location-osm \
     autoupdater-proxy
 
 # support the USB stack
