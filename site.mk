@@ -11,7 +11,8 @@ GLUON_FEATURES := \
 	autoupdater \
 	status-page \
 	web-advanced \
-        web-wizard
+    web-wizard \
+	gluon-scheduled-domain-switch
 #    config-mode-domain-select \
 
 GLUON_SITE_PACKAGES := \
