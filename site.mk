@@ -12,7 +12,7 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
     web-wizard \
-	gluon-scheduled-domain-switch
+	scheduled-domain-switch
 #    config-mode-domain-select \
 
 GLUON_SITE_PACKAGES := \
