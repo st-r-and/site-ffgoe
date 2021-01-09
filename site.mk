@@ -11,8 +11,8 @@ GLUON_FEATURES := \
 	autoupdater \
 	status-page \
 	web-advanced \
---    config-mode-domain-select \
-	web-wizard
+        web-wizard
+#    config-mode-domain-select \
 
 GLUON_SITE_PACKAGES := \
 	iwinfo \
