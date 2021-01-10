@@ -11,17 +11,17 @@ GLUON_FEATURES := \
 	autoupdater \
 	status-page \
 	web-advanced \
-    web-wizard \
+	web-wizard \
 	scheduled-domain-switch
 #    config-mode-domain-select \
 
 GLUON_SITE_PACKAGES := \
-	iwinfo \
+    iwinfo \
 	iptables \
 	haveged \
 	gluon-ssid-changer \
 	gluon-config-mode-geo-location-osm \
-    autoupdater-proxy
+	autoupdater-proxy
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
